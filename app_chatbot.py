@@ -51,7 +51,7 @@ def get_chain(api_key, model_name):
 
     ### LLM creation
     llm = init_chat_model(
-        api_Key=api_Key,
+        api_key=api_key,
         model_provider="google_genai",
         model=model_name,
         streaming=True,
